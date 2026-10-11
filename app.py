@@ -22,15 +22,9 @@ st.write(
 # -----------------------------
 # MODEL PATHS
 # -----------------------------
-MODEL_PATH = os.path.join(
-    "models",
-    "crop_disease_model.keras"
-)
+MODEL_PATH = "crop_disease_model.keras"
 
-CLASS_PATH = os.path.join(
-    "models",
-    "class_names.txt"
-)
+CLASS_PATH = "class_names.txt"
 
 # -----------------------------
 # LOAD MODEL
